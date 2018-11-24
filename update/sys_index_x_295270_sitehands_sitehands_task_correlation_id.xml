@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>correlation_id</col_name_string>
+        <index_col_name element="correlation_id" name="task">66a76d56bc002300aadb875973a34bfd</index_col_name>
+        <logical_table_name>x_295270_sitehands_sitehands_task</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-11-23 19:45:18</sys_created_on>
+        <sys_id>3fcec38cdbca2300c29bd5f0cf96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_295270_sitehands_sitehands_task</sys_name>
+        <sys_package display_value="Sitehands Integration" source="x_295270_sitehands">3ba75633db712300c29bd5f0cf9619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitehands Integration">3ba75633db712300c29bd5f0cf9619a1</sys_scope>
+        <sys_update_name>sys_index_x_295270_sitehands_sitehands_task_correlation_id</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-23 19:45:18</sys_updated_on>
+        <table display_value="Sitehands task" name="x_295270_sitehands_sitehands_task">994c1a33db712300c29bd5f0cf961968</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_295270_sitehands.createSitehandsTask</api_name>
+        <client_callable>false</client_callable>
+        <description>Creates a Sitehands Task record with the function parameters</description>
+        <name>createSitehandsTask</name>
+        <script><![CDATA[function createSitehandsTask(ticket, taskType){
+	//First create a record of the Sitehands Task table because whether the service request creation is successful or not in the sitehands platform there should be a record of this table indicating the error  	
+	var shTask = new GlideRecord('x_295270_sitehands_sitehands_task');
+	shTask.initialize();
+	// Setting this sitehands task record as a child of the ticket record.
+	shTask.parent = ticket.sys_id;
+	//Map some fields from the parent to the sitehands task record(Optional)
+	shTask.location = ticket.location;
+	shTask.description = ticket.description;
+	shTask.expected_start = ticket.expected_start;
+	shTask.due_date = ticket.due_date;
+	shTask.short_description = ticket.short_description;
+	shTask.sitehands_task_type = taskType;
+		
+	try{
+		// Use the Post Sitehands Message that allows the creation of service request in the sitehands platform
+		var r = new sn_ws.RESTMessageV2('x_295270_sitehands.Sitehands REST message', 'Post Sitehands Objects');
+		//Which type of object is going to be created in the Sitehands platform
+		r.setStringParameterNoEscape('object', 'service_request');
+		//Set the base url with property of the integration application
+		r.setStringParameterNoEscape('base_url', gs.getProperty('x_295270_sitehands.BaseURL'));
+		
+		//Verify if there is a corresponding map for this taskType
+		var taskTypeRecord = new GlideRecord('x_295270_sitehands_sitehands_task_type');
+		taskTypeRecord.addQuery('name', taskType);
+		taskTypeRecord.query();
+		if(taskTypeRecord.next()){
+			//Initialize the request body for the rest message
+			var request_body = {};
+			//Filling the request body
+			request_body.Status = "Draft";
+			request_body.State = "New";
+			request_body.Summary = ticket[taskTypeRecord.summary_locator+''] + '';
+            request_body["Task_Type_Record.Name"] = taskType;
+			//Here i have to validate if the site exists in the sitehands platform
+			request_body['Site.Name'] = ticket[taskTypeRecord.site_locator+''] + '';
+			
+			
+			gs.info(JSON.stringify(request_body));
+			
+			r.setStringParameterNoEscape('request_body', JSON.stringify(request_body));
+
+			//Execute the rest method
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+
+			//validate the http status
+			if(httpStatus !== 200){
+				gs.info("Error ============> status is not 200");
+				//adding a comment if the status was not correct
+				shTask.comments = 'The creation was not successfull, the rest method returned this http status: '+httpStatus;
+			}
+			else{
+				var sreq_name = JSON.parse(responseBody).Name;
+				//Set the correlation id of the sitehands task record with the one of the response
+				shTask.correlation_id = sreq_name;
+			}
+		}
+		else{
+			//delete the unsuccessful rest message
+			delete r;
+			gs.info("Error ============> task type is not valid ");
+			//adding a comment to the sitehands task record with the error
+			shTask.comments = taskType + 'is not a valid Sitehands task type';
+		}
+	}
+	catch(message){
+		gs.info("Error ============>" + message);
+	    //adding a comment to the sitehands task record with the error
+		shTask.comments = message;
+	}
+	shTask.insert();
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 22:34:29</sys_created_on>
+        <sys_id>47bc67ccdb0e2300c29bd5f0cf96194f</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>createSitehandsTask</sys_name>
+        <sys_package display_value="Sitehands Integration" source="x_295270_sitehands">3ba75633db712300c29bd5f0cf9619a1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sitehands Integration">3ba75633db712300c29bd5f0cf9619a1</sys_scope>
+        <sys_update_name>sys_script_include_47bc67ccdb0e2300c29bd5f0cf96194f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 23:59:54</sys_updated_on>
+    </sys_script_include>
+</record_update>

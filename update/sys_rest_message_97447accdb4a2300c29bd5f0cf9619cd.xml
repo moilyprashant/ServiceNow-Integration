@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>This message will group all Sitehands HTTP methods.</description>
+        <name>Sitehands REST message</name>
+        <oauth2_profile display_value="Sitehands OAuth Provider default_profile">64bbf908db862300c29bd5f0cf961999</oauth2_profile>
+        <protocol_name/>
+        <rest_endpoint>${base_url}</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 17:54:36</sys_created_on>
+        <sys_id>97447accdb4a2300c29bd5f0cf9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sitehands REST message</sys_name>
+        <sys_package display_value="Sitehands Integration" source="x_295270_sitehands">3ba75633db712300c29bd5f0cf9619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitehands Integration">3ba75633db712300c29bd5f0cf9619a1</sys_scope>
+        <sys_update_name>sys_rest_message_97447accdb4a2300c29bd5f0cf9619cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 17:54:36</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

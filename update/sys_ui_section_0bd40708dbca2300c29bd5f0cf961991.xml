@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Output Mapping" section_id="0bd40708dbca2300c29bd5f0cf961991" sys_domain="global" table="x_295270_sitehands_sitehands_task_type" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_order_status_locator</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 19:01:50</sys_created_on>
+            <sys_id>57d40708dbca2300c29bd5f0cf9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Output Mapping" display_value="Output Mapping" name="x_295270_sitehands_sitehands_task_type" sys_domain="global" view="Default view">0bd40708dbca2300c29bd5f0cf961991</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 19:01:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 19:01:50</sys_created_on>
+            <sys_id>d7d40708dbca2300c29bd5f0cf9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Output Mapping" display_value="Output Mapping" name="x_295270_sitehands_sitehands_task_type" sys_domain="global" view="Default view">0bd40708dbca2300c29bd5f0cf961991</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 19:01:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolution_notes_locator</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 19:01:50</sys_created_on>
+            <sys_id>5bd40708dbca2300c29bd5f0cf9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Output Mapping" display_value="Output Mapping" name="x_295270_sitehands_sitehands_task_type" sys_domain="global" view="Default view">0bd40708dbca2300c29bd5f0cf961991</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 19:01:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Output Mapping</caption>
+            <header>false</header>
+            <name>x_295270_sitehands_sitehands_task_type</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 19:01:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bd40708dbca2300c29bd5f0cf961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Output Mapping</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sitehands Integration" source="x_295270_sitehands">3ba75633db712300c29bd5f0cf9619a1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sitehands Integration">3ba75633db712300c29bd5f0cf9619a1</sys_scope>
+            <sys_update_name>sys_ui_section_0bd40708dbca2300c29bd5f0cf961991</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 19:01:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

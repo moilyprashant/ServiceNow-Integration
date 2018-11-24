@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a1e26b48db0e2300c29bd5f0cf9619a7" sys_domain="global" table="x_295270_sitehands_sitehands_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 21:13:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65e26b48db0e2300c29bd5f0cf9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_295270_sitehands_sitehands_task" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">a1e26b48db0e2300c29bd5f0cf9619a7</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">671113ccdbca2300c29bd5f0cf961948</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 21:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 21:13:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21e26b48db0e2300c29bd5f0cf9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_295270_sitehands_sitehands_task" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">a1e26b48db0e2300c29bd5f0cf9619a7</sys_ui_form>
+            <sys_ui_section caption="Site" display_value="Site" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">a5e26b48db0e2300c29bd5f0cf9619a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 21:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 21:13:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5e26b48db0e2300c29bd5f0cf9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_295270_sitehands_sitehands_task" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">a1e26b48db0e2300c29bd5f0cf9619a7</sys_ui_form>
+            <sys_ui_section caption="Summary" display_value="Summary" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">ade26b48db0e2300c29bd5f0cf9619a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 21:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 21:13:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5e26b48db0e2300c29bd5f0cf9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_295270_sitehands_sitehands_task" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">a1e26b48db0e2300c29bd5f0cf9619a7</sys_ui_form>
+            <sys_ui_section caption="Dates" display_value="Dates" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">a5e26b48db0e2300c29bd5f0cf9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 21:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 21:38:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bc8634cdb0e2300c29bd5f0cf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_295270_sitehands_sitehands_task" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">a1e26b48db0e2300c29bd5f0cf9619a7</sys_ui_form>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">03c8634cdb0e2300c29bd5f0cf961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 21:38:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 21:38:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fc8634cdb0e2300c29bd5f0cf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_295270_sitehands_sitehands_task" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">a1e26b48db0e2300c29bd5f0cf9619a7</sys_ui_form>
+            <sys_ui_section caption="Errors" display_value="Errors" name="x_295270_sitehands_sitehands_task" sys_domain="global" view="Default view">0bc8634cdb0e2300c29bd5f0cf961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 21:38:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_295270_sitehands_sitehands_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-23 21:13:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1e26b48db0e2300c29bd5f0cf9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_295270_sitehands_sitehands_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sitehands Integration" source="x_295270_sitehands">3ba75633db712300c29bd5f0cf9619a1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sitehands Integration">3ba75633db712300c29bd5f0cf9619a1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a1e26b48db0e2300c29bd5f0cf9619a7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-23 21:13:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

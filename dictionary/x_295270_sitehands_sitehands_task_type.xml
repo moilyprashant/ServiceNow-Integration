@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sitehands Task type" max_length="40" name="x_295270_sitehands_sitehands_task_type" type="collection">
+        <element dependent="ticket_table" dependent_on_field="ticket_table" label="Description locator" mandatory="true" max_length="80" name="description_locator" type="field_name" use_dependent_field="true"/>
+        <element label="Fields mapping" mandatory="true" max_length="4000" name="fields_mapping" type="simple_name_values"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="50" name="name" type="string"/>
+        <element dependent="ticket_table" dependent_on_field="ticket_table" label="Request Start locator" mandatory="true" max_length="80" name="request_start_locator" type="field_name" use_dependent_field="true"/>
+        <element dependent="ticket_table" dependent_on_field="ticket_table" label="Resolution Notes locator" mandatory="true" max_length="80" name="resolution_notes_locator" type="field_name" use_dependent_field="true"/>
+        <element dependent="ticket_table" dependent_on_field="ticket_table" label="Site locator" mandatory="true" max_length="80" name="site_locator" type="field_name" use_dependent_field="true"/>
+        <element dependent="ticket_table" dependent_on_field="ticket_table" label="Summary locator" mandatory="true" max_length="80" name="summary_locator" type="field_name" use_dependent_field="true"/>
+        <element attributes="base_start=true" label="Ticketing table" mandatory="true" max_length="80" name="ticket_table" type="table_name"/>
+        <element dependent="ticket_table" dependent_on_field="ticket_table" label="Work Order Status locator" mandatory="true" max_length="80" name="work_order_status_locator" type="field_name" use_dependent_field="true"/>
+    </element>
+</database>

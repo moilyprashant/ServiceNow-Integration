@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Sitehands task" max_length="40" name="x_295270_sitehands_sitehands_task" type="collection">
+        <element label="Sitehands Task type" mandatory="true" max_length="32" name="sitehands_task_type" reference="x_295270_sitehands_sitehands_task_type" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="status" type="string"/>
+    </element>
+</database>
